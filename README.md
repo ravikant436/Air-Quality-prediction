@@ -27,8 +27,8 @@ PM 2.5 is a fine particulate matter that is an air pollutant that is a concern f
 # Table of contents
 
 - [Usage](#usage)
-- [Data Description](#data-desc)
-- [Feature Importance](#feature-importance)
+- [Data Description](#Data Description)
+- [Feature Importance](#Feature Importance)
 - [Model Building](#model-building)
 - [Deployment](#deployment)
 - [Conclusion](#conclusion)
