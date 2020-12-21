@@ -27,8 +27,8 @@ PM 2.5 is a fine particulate matter that is an air pollutant that is a concern f
 # Table of contents
 
 - [Usage](#usage)
-- [Data Description](#Data Description)
-- [Feature Importance](#Feature Importance)
+- [Data Description](#Data-Description)
+- [Feature Importance](#Feature-Importance)
 - [Model Building](#model-building)
 - [Deployment](#deployment)
 - [Conclusion](#conclusion)
@@ -45,7 +45,7 @@ After installing all required libraries. Open command prompt, navigate to projec
 python app.py
 ```
 
-# Data Description
+# Data-Description
 
 ### Data Collection
 Data was scrapped manually from Web (https://en.tutiempo.net/climate/ws-432950.html) for years 2013-2018
@@ -65,7 +65,7 @@ Data was scrapped manually from Web (https://en.tutiempo.net/climate/ws-432950.h
   <tr><td>PM 2.5</td><td>Air Quality Index</td></tr>
 </table>
 
-# Features Importance
+# Features-Importance
 
 ### Features Importance Graph
 
