@@ -47,7 +47,8 @@ python app.py
 # Data-Description
 
 ### Data Collection
-Data was scrapped manually from Web (https://en.tutiempo.net/climate/ws-432950.html) for years 2013-2018
+Data was scrapped from Web (https://en.tutiempo.net/climate/ws-432950.html) for years 2013-2018
+
 **Requests** and **BeautifulSoup** modules were used for web scrapping. Complete code is present in <a href="https://github.com/ravikant436/Air-Quality-prediction/blob/main/AQI_Data_collection.ipynb">AQI_Data_collection.ipynb</a> 
 
 ### Dataset Columns Description
