@@ -173,6 +173,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/ravikant436"><img src="https://avatars3.githubusercontent.com/u/31797554?v=4" width="100px;" alt=""/><br /><sub><b>Ravikant Tyagi</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/ravikant436"><img src="https://github.com/ravikant436/ravikant436.github.io/blob/main/images/photo-1.jpeg" width="100px;" alt=""/><br /><sub><b>Ravikant Tyagi</b></sub></a><br /></td>
   </tr>
 </table>
