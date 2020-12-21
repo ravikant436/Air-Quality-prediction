@@ -28,9 +28,9 @@ PM 2.5 is a fine particulate matter that is an air pollutant that is a concern f
 
 - [Usage](#usage)
 - [Data Description](#Data-Description)
-- [Feature Importance](#Feature-Importance)
-- [Model Building](#model-building)
-- [Deployment](#deployment)
+- [Feature Importance](#Features-Importance)
+- [Model Building](#Model-building)
+- [Deployment](#Deployment)
 - [Conclusion](#conclusion)
 
 # Usage
@@ -75,9 +75,34 @@ Data was scrapped manually from Web (https://en.tutiempo.net/climate/ws-432950.h
 
 <img src="https://github.com/ravikant436/Air-Quality-prediction/blob/main/images/corr-graph-aqi.png"/>
 
-# Contributor
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/ravikant436"><img src="https://github.com/ravikant436/ravikant436.github.io/blob/main/images/photo-1.jpeg" width="100px;" alt=""/><br /><sub><b>Ravikant Tyagi</b></sub></a><br /></td>
-  </tr>
-</table>
+# Model-building
+
+We have considered all 8 features in Model Building. Various Regressor Models have been tried out. 
+
+Find the code and score of all the Models under Regression Section in <a href="https://github.com/ravikant436/Air-Quality-prediction/blob/main/Air_quality_prediction.ipynb">Air_quality_prediction.ipynb</a>
+
+### Linear Regression
+**RMSE Score:** 60.7
+<img src="https://github.com/ravikant436/Air-Quality-prediction/blob/main/images/linear_regression.png" />
+
+### Lasso 
+**RMSE Score:** 60.2
+<img src="https://github.com/ravikant436/Air-Quality-prediction/blob/main/images/lasso.png" />
+
+### Random Forest Regressor
+**RMSE Score:** 41.3
+<img src="https://github.com/ravikant436/Air-Quality-prediction/blob/main/images/random_forest.png" />
+
+### KNN Regressor
+**RMSE Score:** 54.5
+
+Selecting K:
+
+<img src="https://github.com/ravikant436/Air-Quality-prediction/blob/main/images/knn-tuning.png" />
+
+Distplot:
+<img src="https://github.com/ravikant436/Air-Quality-prediction/blob/main/images/knn.png" />
+
+# Deployment
+
+Work in Progress
