@@ -160,17 +160,7 @@ That's it! The extension is now ready to be used in Firefox!
 
 ![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/nsfw-filter/nsfw-filter/master/demo/UML/activity-diagram.plantuml)
 -->
-# Contribute
-
-Please check the [**Contributing Guidelines**](https://github.com/navendu-pottekkat/nsfw-filter/blob/master/.github/markdown/CONTRIBUTING.md) before contributing.
-
-You can also sponsor on [**Open Collective**](https://opencollective.com/nsfwfilter/donate) or [**become a Patron**](https://www.patreon.com/bePatron?u=41162696).
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
+# Contributor
 <table>
   <tr>
     <td align="center"><a href="https://github.com/ravikant436"><img src="https://github.com/ravikant436/ravikant436.github.io/blob/main/images/photo-1.jpeg" width="100px;" alt=""/><br /><sub><b>Ravikant Tyagi</b></sub></a><br /></td>
