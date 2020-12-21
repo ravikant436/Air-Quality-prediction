@@ -1,79 +1,46 @@
 # Air-Quality-prediction
+<a href="https://github.com/ravikant436/Air-Quality-prediction/commits/master" target="_blank">
+  <img src="https://img.shields.io/github/last-commit/ravikant436/Air-Quality-prediction?style=flat-square" alt="GitHub last commit">
+</a>
 
-<p align="center">
-  <a href="https://github.com/ravikant436/Air-Quality-prediction/releases/" target="_blank">
-    <img alt="GitHub release" src="https://img.shields.io/github/v/release/ravikant436/Air-Quality-prediction?include_prereleases&style=flat-square">
-  </a>
+<a href="https://github.com/ravikant436/Air-Quality-prediction/issues" target="_blank">
+  <img src="https://img.shields.io/github/issues/ravikant436/Air-Quality-prediction?style=flat-square&color=red" alt="GitHub issues">
+</a>
 
-  <a href="https://github.com/ravikant436/Air-Quality-prediction/commits/master" target="_blank">
-    <img src="https://img.shields.io/github/last-commit/ravikant436/Air-Quality-prediction?style=flat-square" alt="GitHub last commit">
-  </a>
+<a href="https://github.com/ravikant436/Air-Quality-prediction/pulls" target="_blank">
+  <img src="https://img.shields.io/github/issues-pr/ravikant436/Air-Quality-prediction?style=flat-square&color=blue" alt="GitHub pull requests">
+</a>
 
-  <a href="https://github.com/ravikant436/Air-Quality-prediction/issues" target="_blank">
-    <img src="https://img.shields.io/github/issues/ravikant436/Air-Quality-prediction?style=flat-square&color=red" alt="GitHub issues">
-  </a>
+<a href="https://github.com/ravikant436/Air-Quality-prediction#contribute" target="_blank">
+  <img alt="Contributors" src="https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square">
+</a>
 
-  <a href="https://github.com/ravikant436/Air-Quality-prediction/pulls" target="_blank">
-    <img src="https://img.shields.io/github/issues-pr/ravikant436/Air-Quality-prediction?style=flat-square&color=blue" alt="GitHub pull requests">
-  </a>
-
-  </br>
-
-  <a href="https://github.com/ravikant436/Air-Quality-prediction#contribute" target="_blank">
-    <img alt="Contributors" src="https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square">
-  </a>
-
-  <a href="https://standardjs.com" target="_blank">
-    <img alt="ESLint" src="https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square">
-  </a>
-</p>
+<a href="https://standardjs.com" target="_blank">
+  <img alt="ESLint" src="https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square">
+</a>
 <hr>
 
-A Google Chrome/Firefox extension that blocks NSFW images from the web pages that you load using TensorFlowJS.
+Air quality is measure with the Air Quality Index(PM 2.5)
 
-*This extension **does NOT** collect/send any user data. All the operations on the images are done locally on the browser. No user data is being sent to a server for processing.*
-
-<p align="center">
-  <img alt='logo name' src='./demo/images/logo_name.png'>
-</p>
-
-<p align="center">
-  <img alt="GitHub release" src="https://raw.githubusercontent.com/nsfw-filter/nsfw-filter/master/demo/images/demo_v3.gif">
-</p>
-
-When a web page is loaded, all the images remain hidden until they are found to be NSFW or not. If they are found to be NSFW, they remain hidden. Otherwise, they become visible.
-
-It is free and is currently supported on both Chrome and Firefox. We are working on porting this to Safari also.
-</br>
-<p align="center">
-  <a href="https://chrome.google.com/webstore/detail/nsfw-filter/kmgagnlkckiamnenbpigfaljmanlbbhh" target="_blank">
-    <img src="./demo/images/chrome.gif" alt="Download now" width="160">
-  </a>
-  <a href="https://addons.mozilla.org/en-US/firefox/addon/nsfw-filter/" target="_blank">
-    <img src="./demo/images/firefox.gif" alt="Download now" width="160">
-  </a>
-</p>
-
-<p align="center">
-<a href="https://chrome.google.com/webstore/detail/nsfw-filter/kmgagnlkckiamnenbpigfaljmanlbbhh" target="_blank"><strong>Download for Chrome</strong></a> | <a href="https://addons.mozilla.org/en-US/firefox/addon/nsfw-filter/" target="_blank"><strong>Download for Firefox</strong></a>
-</p>
-
-Read about the release in [**Hacker Noon**](https://hackernoon.com/nsfw-filter-introduction-building-a-safer-internet-using-ai-jq1e3u2f) or in [**Towards Data Science**](https://towardsdatascience.com/building-a-safer-internet-for-everyone-using-ai-175df5e02cee).
-
-Model used - [**nsfwjs**](https://github.com/infinitered/nsfwjs) developed by [**Infinite Red, Inc.**](https://github.com/infinitered)
-
-Reach out to us! Join the [**Slack channel**](https://join.slack.com/t/nsfwfilter/shared_invite/zt-gt1lgdiv-K2VR~UVUxwaTPWCLSmDiug).
+PM 2.5 is a fine particulate matter that is an air pollutant that is a concern for people’s health when levels in the air are high.
 
 # Table of contents
 
 - [Usage](#usage)
 - [Development](#development)
-    - [Adding to Chrome](#adding-to-chrome)
-    - [Adding to Firefox](#adding-to-firefox)
-- [Contribute](#contribute)
+    - [Data-Collection](#data-collection)
+    - [Data-preprocessing](#data-preprocessing)
+    - [Feature Importance](#feature-importance)
+    - [Model Building](#model-building)
+    - [Deployment](#deployment)
+- [Conclusion](#conclusion)
 
 # Usage
 
+Install all dependencies. Run below command.
+```sh
+pip install -r requirements.txt
+```
 After adding the extension to Chrome/Firefox, it will light-up everytime you load a compatable website.
 
 When a page is loaded, the extension would hide all the images in the page and only show images that have been classified as **NOT NSFW**.
