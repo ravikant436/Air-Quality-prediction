@@ -2,19 +2,19 @@
 
 <p align="center">
   <a href="https://github.com/ravikant436/Air-Quality-prediction/releases/" target="_blank">
-    <img alt="GitHub release" src="https://img.shields.io/github/v/release/navendu-pottekkat/nsfw-filter?include_prereleases&style=flat-square">
+    <img alt="GitHub release" src="https://img.shields.io/github/v/release/ravikant436/Air-Quality-prediction?include_prereleases&style=flat-square">
   </a>
 
   <a href="https://github.com/ravikant436/Air-Quality-prediction/commits/master" target="_blank">
-    <img src="https://img.shields.io/github/last-commit/navendu-pottekkat/nsfw-filter?style=flat-square" alt="GitHub last commit">
+    <img src="https://img.shields.io/github/last-commit/ravikant436/Air-Quality-prediction?style=flat-square" alt="GitHub last commit">
   </a>
 
   <a href="https://github.com/ravikant436/Air-Quality-prediction/issues" target="_blank">
-    <img src="https://img.shields.io/github/issues/navendu-pottekkat/nsfw-filter?style=flat-square&color=red" alt="GitHub issues">
+    <img src="https://img.shields.io/github/issues/ravikant436/Air-Quality-prediction?style=flat-square&color=red" alt="GitHub issues">
   </a>
 
   <a href="https://github.com/ravikant436/Air-Quality-prediction/pulls" target="_blank">
-    <img src="https://img.shields.io/github/issues-pr/navendu-pottekkat/nsfw-filter?style=flat-square&color=blue" alt="GitHub pull requests">
+    <img src="https://img.shields.io/github/issues-pr/ravikant436/Air-Quality-prediction?style=flat-square&color=blue" alt="GitHub pull requests">
   </a>
 
   </br>
@@ -25,14 +25,6 @@
 
   <a href="https://standardjs.com" target="_blank">
     <img alt="ESLint" src="https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square">
-  </a>
-
-  <a href="https://www.producthunt.com/posts/nsfw-filter?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-nsfw-filter" target="_blank">
-    <img alt="ProductHunt" src="https://img.shields.io/badge/ProductHunt-210-green.svg?style=flat-square">
-  <a/>
-
-  <a href="https://ctt.ac/4e4Jt" target="_blank">
-    <img src="https://img.shields.io/twitter/url?style=flat-square&logo=twitter&url=https://ctt.ac/4e4Jt" alt="GitHub tweet">
   </a>
 </p>
 <hr>
