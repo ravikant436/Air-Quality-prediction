@@ -1,25 +1,25 @@
 # Air-Quality-prediction
 
 <p align="center">
-  <a href="https://github.com/nsfw-filter/nsfw-filter/releases/" target="_blank">
+  <a href="https://github.com/ravikant436/Air-Quality-prediction/releases/" target="_blank">
     <img alt="GitHub release" src="https://img.shields.io/github/v/release/navendu-pottekkat/nsfw-filter?include_prereleases&style=flat-square">
   </a>
 
-  <a href="https://github.com/navendu-pottekkat/nsfw-filter/commits/master" target="_blank">
+  <a href="https://github.com/ravikant436/Air-Quality-prediction/commits/master" target="_blank">
     <img src="https://img.shields.io/github/last-commit/navendu-pottekkat/nsfw-filter?style=flat-square" alt="GitHub last commit">
   </a>
 
-  <a href="https://github.com/navendu-pottekkat/nsfw-filter/issues" target="_blank">
+  <a href="https://github.com/ravikant436/Air-Quality-prediction/issues" target="_blank">
     <img src="https://img.shields.io/github/issues/navendu-pottekkat/nsfw-filter?style=flat-square&color=red" alt="GitHub issues">
   </a>
 
-  <a href="https://github.com/navendu-pottekkat/nsfw-filter/pulls" target="_blank">
+  <a href="https://github.com/ravikant436/Air-Quality-prediction/pulls" target="_blank">
     <img src="https://img.shields.io/github/issues-pr/navendu-pottekkat/nsfw-filter?style=flat-square&color=blue" alt="GitHub pull requests">
   </a>
 
   </br>
 
-  <a href="https://github.com/nsfw-filter/nsfw-filter#contribute" target="_blank">
+  <a href="https://github.com/ravikant436/Air-Quality-prediction#contribute" target="_blank">
     <img alt="Contributors" src="https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square">
   </a>
 
@@ -29,10 +29,6 @@
 
   <a href="https://www.producthunt.com/posts/nsfw-filter?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-nsfw-filter" target="_blank">
     <img alt="ProductHunt" src="https://img.shields.io/badge/ProductHunt-210-green.svg?style=flat-square">
-  <a/>
-
-  <a href="https://github.com/nsfw-filter/nsfw-filter/blob/master/LICENSE" target="_blank">
-    <img alt="LICENSE" src="https://img.shields.io/github/license/navendu-pottekkat/nsfw-filter?style=flat-square&color=yellow">
   <a/>
 
   <a href="https://ctt.ac/4e4Jt" target="_blank">
