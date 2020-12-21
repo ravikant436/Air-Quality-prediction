@@ -37,29 +37,10 @@ PM 2.5 is a fine particulate matter that is an air pollutant that is a concern f
 
 # Usage
 
-Install all dependencies. Run below command.
+Project is ready to run (with some requirements). You need to clone and run:
 ```sh
 pip install -r requirements.txt
 ```
-After adding the extension to Chrome/Firefox, it will light-up everytime you load a compatable website.
-
-When a page is loaded, the extension would hide all the images in the page and only show images that have been classified as **NOT NSFW**.
-
-You can toggle(off/on) the extension from the ```chrome://extensions``` page in Chrome and ```about:debugging#/runtime/this-firefox``` in Firefox.
-
-Open popup window to change NSFW Filter settings
-
-<table>
-  <tr>
-    <td vlign="center">
-      <img src="./demo/images/pin_popup.png" alt="Pin popup window">
-    </td>
-    <td vlign="center">
-      <img src="./demo/images/popup.png" alt="Popup window">
-    </td>
-  </tr>
-</table>
-
 
 # Development
 
