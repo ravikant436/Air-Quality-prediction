@@ -1,4 +1,4 @@
-# Air-Quality-prediction
+# Air Quality Prediction - Bangalore City
 <a href="https://github.com/ravikant436/Air-Quality-prediction/commits/master" target="_blank">
   <img src="https://img.shields.io/github/last-commit/ravikant436/Air-Quality-prediction?style=flat-square" alt="GitHub last commit">
 </a>
@@ -27,12 +27,10 @@ PM 2.5 is a fine particulate matter that is an air pollutant that is a concern f
 # Table of contents
 
 - [Usage](#usage)
-- [Development](#development)
-    - [Data-Collection](#data-collection)
-    - [Data-preprocessing](#data-preprocessing)
-    - [Feature Importance](#feature-importance)
-    - [Model Building](#model-building)
-    - [Deployment](#deployment)
+- [Data Description](#data-desc)
+- [Feature Importance](#feature-importance)
+- [Model Building](#model-building)
+- [Deployment](#deployment)
 - [Conclusion](#conclusion)
 
 # Usage
@@ -42,72 +40,41 @@ Project is ready to run (with some requirements). You need to clone and run:
 pip install -r requirements.txt
 ```
 
-# Development
-
-Clone this repository and navigate inside the project folder and install the dependencies by running:
-
+After installing all required libraries. Open command prompt, navigate to project folder and run:
 ```sh
-npm ci
+python app.py
 ```
 
-After installing the dependencies, build the project by executing:
+# Data Description
 
-```sh
-npm run build
-```
+### Data Collection
+Data was scrapped manually from Web (https://en.tutiempo.net/climate/ws-432950.html) for years 2013-2018
+**Requests** and **BeautifulSoup** modules were used for web scrapping. Complete code is present in <a href="https://github.com/ravikant436/Air-Quality-prediction/blob/main/AQI_Data_collection.ipynb">AQI_Data_collection.ipynb</a> 
 
-Run the tests
+### Dataset Columns Description
 
-```sh
-npm run test
-```
+<table>
+  <tr><td>T</td><td>Average Temperature (°C)</td></tr>
+  <tr><td>TM</td><td>Maximum temperature (°C)</td></tr>
+  <tr><td>Tm</td><td>Minimum temperature (°C)</td></tr>
+  <tr><td>SLP</td><td>Atmospheric pressure at sea level (hPa)</td></tr>
+  <tr><td>H</td><td>Average relative humidity (%)</td></tr>
+  <tr><td>VV</td><td>Average visibility (Km)</td></tr>
+  <tr><td>V</td><td>Average wind speed (Km/h)</td></tr>
+  <tr><td>VM</td><td>Maximum sustained wind speed (Km/h)</td></tr>
+  <tr><td>PM 2.5</td><td>Air Quality Index</td></tr>
+</table>
 
-### Adding to Chrome
+# Features Importance
 
-To install the developer version follow the steps below. To just use the extension download from [**chrome.google.com/webstore/nsfw-filter**](https://chrome.google.com/webstore/detail/nsfw-filter/kmgagnlkckiamnenbpigfaljmanlbbhh)
+### Features Importance Graph
 
-To run development version in clean environment use command:
+<img src="https://github.com/ravikant436/Air-Quality-prediction/blob/main/images/feature-importance.png"/>
 
-```sh
-npm run dev:chrome
-```
+### Co-relation Heatmap between all the features
 
-Or open Google Chrome and open the Extension Management page by navigating to ```chrome://extensions``` or by opening Settings and clicking Extensions from the bottom left.
+<img src="https://github.com/ravikant436/Air-Quality-prediction/blob/main/images/corr-graph-aqi.png"/>
 
-Enable Developer Mode by clicking the toggle switch next to Developer mode.
-
-Click the "Load Unpacked" button and select the extension directory(```.../dist```).
-
-<p align="center">
-  <img src="./demo/images/install_instructions.png" alt="Install Instructions">
-<p/>
-
-Voila! The extension is now installed and ready to be used!
-
-### Adding to Firefox
-
-To install the developer version follow the steps below. To just use the extension download from [**addons.mozilla/nsfw-filter**](https://addons.mozilla.org/en-US/firefox/addon/nsfw-filter/)
-
-To run development version in clean environment use command:
-
-```sh
-npm run dev:firefox
-```
-
-Or open Firefox and open the Debug Add-ons page by navigating to ```about:debugging#/runtime/this-firefox``` or by selecting it from Settings dropdown in the add-ons page.
-
-Click Load Temporary Add-on and select the ```manifest.json``` file from the ```.../dist``` directory.
-
-<p align="center">
-  <img src="./demo/images/install_instructions_firefox.png" width="470px" alt="Install Instructions">
-<p/>
-
-That's it! The extension is now ready to be used in Firefox!
-<!--
-### Activity Diagram
-
-![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/nsfw-filter/nsfw-filter/master/demo/UML/activity-diagram.plantuml)
--->
 # Contributor
 <table>
   <tr>
