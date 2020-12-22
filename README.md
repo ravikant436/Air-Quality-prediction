@@ -83,15 +83,19 @@ Find the code and score of all the Models under Regression Section in <a href="h
 
 ### Linear Regression
 **RMSE Score:** 60.7
+
 <img src="https://github.com/ravikant436/Air-Quality-prediction/blob/main/images/linear_regression.png" />
 
 ### Lasso 
 **RMSE Score:** 60.2
+
 <img src="https://github.com/ravikant436/Air-Quality-prediction/blob/main/images/lasso.png" />
 
 ### Random Forest Regressor
 **Hypertuned Parameters**: {'n_estimators': 500, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'sqrt', 'max_depth': 15}
+
 **RMSE Score:** 41.3
+
 <img src="https://github.com/ravikant436/Air-Quality-prediction/blob/main/images/random_forest.png" />
 
 ### KNN Regressor
@@ -102,6 +106,7 @@ Find the code and score of all the Models under Regression Section in <a href="h
 <img src="https://github.com/ravikant436/Air-Quality-prediction/blob/main/images/knn-tuning.png" />
 
 Distplot:
+
 <img src="https://github.com/ravikant436/Air-Quality-prediction/blob/main/images/knn.png" />
 
 # Deployment
