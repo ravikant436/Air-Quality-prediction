@@ -29,7 +29,7 @@ PM 2.5 is a fine particulate matter that is an air pollutant that is a concern f
 - [Usage](#usage)
 - [Data Description](#Data-Description)
 - [Feature Importance](#Features-Importance)
-- [Model Building](#Model-building)
+- [Model Evaluation](#Model-Evaluation)
 - [Deployment](#Deployment)
 
 # Usage
@@ -44,7 +44,7 @@ After installing all required libraries. Open command prompt, navigate to projec
 python app.py
 ```
 
-# Data-Description
+# Data Description
 
 ### Data Collection
 Data was scrapped from Web (https://en.tutiempo.net/climate/ws-432950.html) for years 2013-2018
@@ -65,7 +65,7 @@ Data was scrapped from Web (https://en.tutiempo.net/climate/ws-432950.html) for 
   <tr><td>PM 2.5</td><td>Air Quality Index</td></tr>
 </table>
 
-# Features-Importance
+# Features Importance
 
 ### Features Importance Graph
 
@@ -75,7 +75,7 @@ Data was scrapped from Web (https://en.tutiempo.net/climate/ws-432950.html) for 
 
 <img src="https://github.com/ravikant436/Air-Quality-prediction/blob/main/images/corr-graph-aqi.png"/>
 
-# Model-building
+# Model Evaluation
 
 We have considered all 8 features in Model Building. Various Regressor Models have been tried out. 
 
@@ -90,13 +90,14 @@ Find the code and score of all the Models under Regression Section in <a href="h
 <img src="https://github.com/ravikant436/Air-Quality-prediction/blob/main/images/lasso.png" />
 
 ### Random Forest Regressor
+**Hypertuned Parameters**: {'n_estimators': 500, 'min_samples_split': 2, 'min_samples_leaf': 1, 'max_features': 'sqrt', 'max_depth': 15}
 **RMSE Score:** 41.3
 <img src="https://github.com/ravikant436/Air-Quality-prediction/blob/main/images/random_forest.png" />
 
 ### KNN Regressor
 **RMSE Score:** 54.5
 
-Selecting K:
+**Hyperturned K**: 3
 
 <img src="https://github.com/ravikant436/Air-Quality-prediction/blob/main/images/knn-tuning.png" />
 
@@ -105,4 +106,8 @@ Distplot:
 
 # Deployment
 
-Work in Progress
+Among above tested Models, Random Forest Regressor has shown best performance in comparison, on our dataset. 
+
+So we have created pickel file of the same, <a href="https://github.com/ravikant436/Air-Quality-prediction/blob/main/random_forest_model.pkl">random_forest_model.pkl</a>
+
+We are using Flask Framework, and project will be deployed on Heroku (**Work in Progress**)
