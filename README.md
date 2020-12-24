@@ -19,9 +19,8 @@
   <img alt="ESLint" src="https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square">
 </a>
 <hr>
-
-Air quality is measure with the Air Quality Index(PM 2.5)
-
+### Introduction
+Air quality is measured with the Air Quality Index(PM 2.5). 
 PM 2.5 is a fine particulate matter that is an air pollutant that is a concern for people’s health when levels in the air are high.
 
 In this Project, We aim to predict PM 2.5 of Bangalore City for a given values of different parameters like Temprature, Visibility, Wind speed etc.
