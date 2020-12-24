@@ -19,7 +19,6 @@
   <img alt="ESLint" src="https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square">
 </a>
 <hr>
-**Introduction**
 
 Air quality is measured with the Air Quality Index(PM 2.5). 
 PM 2.5 is a fine particulate matter that is an air pollutant that is a concern for people’s health when levels in the air are high.
